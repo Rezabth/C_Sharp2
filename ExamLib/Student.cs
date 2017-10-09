@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace ExamLib
 {
-   public class Student
+    public class Student
     {
-        private string StudentName;
+        private string name;
 
-        public Student(string studentName)
+        public Student(string name)
         {
-            this.StudentName = studentName;
+            this.name = name;
+        }
+        public override string ToString()
+        {
+            return this.name;
         }
     }
 }

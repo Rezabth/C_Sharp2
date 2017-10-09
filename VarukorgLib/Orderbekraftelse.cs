@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VarukorgLib
 {
-   public class Orderbekraftelse
+    public class Orderbekräftelse
     {
+        public string Meddelande { get; set; }
     }
 }

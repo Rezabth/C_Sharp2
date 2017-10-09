@@ -21,7 +21,6 @@ namespace ExamTestsLib
             sut.Grade(alice, "G");
             sut.Grade(bob, "VG");
             sut.Grade(caesar, "G");
-
             Dictionary<string, int> statistics = sut.GenerateStatistics();
             Assert.AreEqual(statistics["IG"], 0);
             Assert.AreEqual(statistics["G"], 2);

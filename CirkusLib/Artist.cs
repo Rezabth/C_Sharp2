@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CirkusLib
+namespace CircusLib
 {
-    class Artist
+    public class Artist
     {
+        public string namn;
+
+        public Artist(string namn)
+        {
+            this.namn = namn;
+        }
     }
 }
