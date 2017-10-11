@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D0E2C0C-0BE0-49D5-9251-D97CF8C6CE57}</ProjectGuid>
+    <ProjectGuid>{9AFD0A5B-B666-46E2-B288-C5C2537C2A13}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RegexUnitTestProject1</RootNamespace>
-    <AssemblyName>RegexUnitTestProject1</AssemblyName>
+    <RootNamespace>UnitTestProject</RootNamespace>
+    <AssemblyName>UnitTestProject</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,17 +48,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmployeeConverterTests.cs" />
+    <Compile Include="SEImportTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeConverterLib\EmployeeConverterLib.csproj">
-      <Project>{431ee432-0601-4fc2-92a9-3c71e1f2c827}</Project>
-      <Name>EmployeeConverterLib</Name>
-    </ProjectReference>
+    <Content Include="MATTIAS0_SIE4 2015-09-01 - 2016-08-31.SE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

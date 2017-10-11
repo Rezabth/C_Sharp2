@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 namespace RegexUnitTestProject1
 {
     [TestClass]
-    public class UnitTest1
+    public class EmployeeConverterTests
     {
         [TestMethod]
         public void TestMethod1()
