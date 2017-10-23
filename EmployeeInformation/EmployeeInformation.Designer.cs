@@ -44,6 +44,7 @@
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(100, 20);
             this.textBoxId.TabIndex = 0;
+            this.textBoxId.TextChanged += new System.EventHandler(this.textBoxId_TextChanged);
             // 
             // textBoxSalary
             // 
@@ -121,6 +122,7 @@
             this.Controls.Add(this.textBoxId);
             this.Name = "EmployeeInformation";
             this.Text = "EmployeeInformation";
+            this.Load += new System.EventHandler(this.EmployeeInformation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

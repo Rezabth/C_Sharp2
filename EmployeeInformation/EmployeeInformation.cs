@@ -40,5 +40,15 @@ namespace EmployeeInformation
             textBoxName.Text = anEmployee.name;
             textBoxSalary.Text = anEmployee.salary;
         }
+
+        private void EmployeeInformation_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
